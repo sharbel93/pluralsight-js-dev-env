@@ -12,6 +12,7 @@ export default {
         path.resolve(__dirname, 'src/index')
     ],
     target: 'web',
+    //no physical file just assimilate a file called bundle.js
     output: {
       path: path.resolve(__dirname, 'src'),
       publicPath: '/',
@@ -30,9 +31,9 @@ export default {
         })
     ],
     module: {
-        loaders: [
-            {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
-            {test: /\.css$/, loaders: ['style', 'css']}
+        rules: [
+            {test: /\.js$/, exclude: /node_modules/, loader: ['babel-loader']},
+            {test: /\.css$/, use: ['style-loader', 'css-loader']}
         ]
     }
 }
