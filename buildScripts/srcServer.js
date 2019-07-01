@@ -4,9 +4,19 @@ import path from 'path';
 import open from 'open';
 // var path = require('path');
 // var open = require('open');
+import webpack from 'webpack';
+import config from '../webpack.config.dev';
 
 const port = 3001;
 const app = express();
+const compiler = webpack(config);
+
+app.use(
+    require("webpack-dev-middleware")(compiler, {
+        noInfo: true,
+        publicPath: config.output.publicPath
+    })
+);
 
 //root request endpoint for the server to index.html
 app.get('/', function(req,res) {
