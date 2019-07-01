@@ -1,9 +1,12 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+// var express = require('express');
+import express from 'express';
+import path from 'path';
+import open from 'open';
+// var path = require('path');
+// var open = require('open');
 
-var port = 3001;
-var app = express();
+const port = 3001;
+const app = express();
 
 //root request endpoint for the server to index.html
 app.get('/', function(req,res) {

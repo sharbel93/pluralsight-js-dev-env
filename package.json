@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Javascript development environment Pluralsight course",
   "scripts": {
-    "prestart": "node buildScripts/startMessage.js",
+    "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all open:src",
-    "open:src": "node buildScripts/srcServer.js",
-    "share": "sudo ngrok http 3001  "
+    "open:src": "babel-node buildScripts/srcServer.js",
+    "share": "sudo ngrok http 3001"
   },
   "author": "Sharbel Chris",
   "license": "MIT",
@@ -48,5 +48,22 @@
     "webpack-dev-middleware": "3.7.0",
     "webpack-hot-middleware": "2.25.0",
     "webpack-md5-hash": "0.0.6"
+  }, "babel": {
+   "presets": [
+     "@babel/preset-env"
+   ],
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "@babel/preset-env",{
+          "es2015": {
+            "modules": false
+          }
+        }
+        ]
+      ]
+    }
   }
+}
 }
