@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/js-starter-kit.iml" filepath="$PROJECT_DIR$/.idea/js-starter-kit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../obb-jayway-app/.idea/obb-jayway-app.iml" filepath="$PROJECT_DIR$/../../obb-jayway-app/.idea/obb-jayway-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../one-bite-better-server/.idea/obb-server.iml" filepath="$PROJECT_DIR$/../../one-bite-better-server/.idea/obb-server.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,12 @@
   "name": "javascript-starter-kit",
   "version": "1.0.0",
   "description": "Javascript development environment Pluralsight course",
-  "scripts": {},
+  "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "npm-run-all open:src",
+    "open:src": "node buildScripts/srcServer.js",
+    "share": "sudo ngrok http 3001  "
+  },
   "author": "Sharbel Chris",
   "license": "MIT",
   "dependencies": {
