@@ -4,11 +4,11 @@
   "description": "Javascript development environment Pluralsight course",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
-    "start": "npm-run-all open:src",
+    "start": "npm-run-all --parallel open:src lint:watch",
     "open:src": "babel-node buildScripts/srcServer.js",
     "lint": "esw webpack.config.* src buildScripts --color",
     "lint:watch": "npm run lint -- --watch",
-    "share": "sudo ngrok http 3001"
+    "share": " npm-run-all --parallel open:src sudo ngrok http 3001"
   },
   "author": "Sharbel Chris",
   "license": "MIT",
