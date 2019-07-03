@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +33,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="-210">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -139,10 +143,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="187" />
-    <option name="y" value="91" />
+    <option name="x" value="310" />
+    <option name="y" value="379" />
     <option name="width" value="1222" />
-    <option name="height" value="396" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,16 +161,6 @@
             <path>
               <item name="js-starter-kit" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-starter-kit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-starter-kit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-starter-kit" type="462c0819:PsiDirectoryNode" />
-              <item name="buildScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-starter-kit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-starter-kit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,15 +207,15 @@
       <workItem from="1561962059214" duration="7212000" />
       <workItem from="1561974740069" duration="18927000" />
       <workItem from="1562056910827" duration="8021000" />
-      <workItem from="1562081386732" duration="5135000" />
+      <workItem from="1562081386732" duration="5789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45798000" />
+    <option name="totallyTimeSpent" value="46452000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="91" width="1222" height="396" extended-state="0" />
+    <frame x="187" y="91" width="1222" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13860545" />
@@ -432,10 +426,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="-210">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
