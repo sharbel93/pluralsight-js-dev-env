@@ -10,7 +10,8 @@
     "lint:watch": "npm run lint -- --watch",
     "share": " npm-run-all --parallel open:src sudo ngrok http 3001",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "generate-mock-data": "babel-node buildScripts/generateMockData"
   },
   "author": "Sharbel Chris",
   "license": "MIT",
