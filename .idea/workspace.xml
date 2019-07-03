@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645695ce-b41d-4f63-865d-6b80d45e5c48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/baseUrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/userApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/userApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,22 +38,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="399">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#151#157#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +108,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-177">
+              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="e#37#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/db.json">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -129,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="882">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -173,7 +171,6 @@
         <option value="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" />
         <option value="$PROJECT_DIR$/buildScripts/srcServer.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.test.js" />
         <option value="$PROJECT_DIR$/buildScripts/mockDataSchema.js" />
         <option value="$PROJECT_DIR$/buildScripts/generateMockData.js" />
@@ -181,14 +178,15 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/api/baseUrl.js" />
         <option value="$PROJECT_DIR$/src/api/userApi.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="483" />
+    <option name="x" value="61" />
+    <option name="y" value="302" />
     <option name="width" value="1431" />
-    <option name="height" value="417" />
+    <option name="height" value="539" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,19 +265,19 @@
       <workItem from="1562056910827" duration="8021000" />
       <workItem from="1562081386732" duration="14322000" />
       <workItem from="1562154680533" duration="5711000" />
-      <workItem from="1562167357940" duration="6101000" />
+      <workItem from="1562167357940" duration="7197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66797000" />
+    <option name="totallyTimeSpent" value="67893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="483" width="1431" height="417" extended-state="0" />
+    <frame x="0" y="539" width="1431" height="539" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6962963" visible="true" weight="0.3104693" />
-      <window_info id="Structure" order="1" sideWeight="0.3037037" side_tool="true" visible="true" weight="0.3104693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7372449" visible="true" weight="0.3104693" />
+      <window_info id="Structure" order="1" sideWeight="0.2627551" side_tool="true" visible="true" weight="0.3104693" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -524,23 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#37#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -602,10 +583,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buildScripts/srcServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/userApi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="399">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
