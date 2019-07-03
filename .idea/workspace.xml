@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645695ce-b41d-4f63-865d-6b80d45e5c48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/appveyor.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../obb-jayway-app/src/config/config.dev.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/client/config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../one-bite-better-server/server/config/dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appveyor.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -145,12 +155,13 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/appveyor.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="516" />
+    <option name="x" value="400" />
+    <option name="y" value="180" />
     <option name="width" value="1222" />
     <option name="height" value="739" />
   </component>
@@ -167,11 +178,6 @@
             <path>
               <item name="js-starter-kit" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-starter-kit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-starter-kit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-starter-kit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,15 +224,15 @@
       <workItem from="1561962059214" duration="7212000" />
       <workItem from="1561974740069" duration="18927000" />
       <workItem from="1562056910827" duration="8021000" />
-      <workItem from="1562081386732" duration="6483000" />
+      <workItem from="1562081386732" duration="7449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47146000" />
+    <option name="totallyTimeSpent" value="48112000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="516" width="1222" height="739" extended-state="0" />
+    <frame x="400" y="180" width="1222" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13860545" />
@@ -446,6 +452,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appveyor.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
