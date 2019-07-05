@@ -8,17 +8,37 @@ export default {
         extensions: ['*', '.js', '.jsx', '.json']
     },
     devtool: 'source-map',
-    entry: [
-        path.resolve(__dirname, 'src/index')
-    ],
+    entry: {
+     vendor: path.resolve(__dirname, 'src/vendor'),
+     main: path.resolve(__dirname, 'src/index')
+
+    }
+    ,
     target: 'web',
     //no physical file just assimilate a file called bundle.js
     output: {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: '[name].js'
+    },
+    optimization: {
+        splitChunks: {
+            cacheGroups: {
+                commons: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendor',
+                    chunks: 'all'
+                }
+            }
+        }
     },
     plugins: [
+        // Use CommonsChunkPlugin to create a separate bundle
+        // of vendor libraries so that they're cached separately.
+        // new webpack.optimize.CommonsChunkPlugin({
+        //     name: 'vendor'
+        // }),
+
         // Global loader configuration
         new webpack.LoaderOptionsPlugin({
             minimize: true,
