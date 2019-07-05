@@ -2,7 +2,7 @@ import webpack from 'webpack';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import WebpackMd5Hash from 'webpack-md5-hash';
-
+import ExtractTextPlugin from "extract-text-webpack-plugin";
 export default {
     mode: 'production',
     resolve: {
@@ -22,6 +22,7 @@ export default {
         publicPath: '/',
         filename: '[name].[chunkhash].js'
     },
+    // Webpack 4 removed the commonsChunkPlugin. Use optimization.splitChunks instead.
     optimization: {
         splitChunks: {
             cacheGroups: {
@@ -37,6 +38,7 @@ export default {
         //Hash the files using MD5 so that their names change when the content changes
         new WebpackMd5Hash(),
 
+        new ExtractTextPlugin("[name].[md5:contenthash:hex:20].css"),
         // Use CommonsChunkPlugin to create a separate bundle
         // of vendor libraries so that they're cached separately.
         // new webpack.optimize.CommonsChunkPlugin({
@@ -64,13 +66,16 @@ export default {
                 minifyCSS: true,
                 minifyURLs: true
             },
-            inject: true
+            inject: true,
+            // Properties you define here are available in index.html
+            // using htmlWebpackPlugin.options.varName
+            trackJSToken: "0f74212c304547f09fd9891d28b3e0fc"
         })
     ],
     module: {
         rules: [
             {test: /\.js$/, exclude: /node_modules/, loader: ['babel-loader']},
-            {test: /\.css$/, use: ['style-loader', 'css-loader']}
+            {test: /\.css$/, loader: ExtractTextPlugin.extract("css-loader?sourceMap")}
         ]
     }
 }
