@@ -1,8 +1,10 @@
 export default function getBaseUrl(){
     // const inDevelopment = window.location.hostname === 'localhost';
     // return inDevelopment ? 'http://localhost:3002/' : '/';
-    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3002/' : '/';
+    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3002/' : ' https://pacific-mesa-49652.herokuapp.com/';
 }
+
+
 
 function getQueryStringParameterByName(name, url) {
     if (!url) url = window.location.href;
